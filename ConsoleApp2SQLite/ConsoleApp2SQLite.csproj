@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HiNetCloud.System.Diagnostics.PerformanceCounter" Version="23.10.10.10" />
+    <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.2" />
+    <PackageReference Include="LibreHardwareMonitorLibCore" Version="1.0.3" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.12" />
+    <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="7.0.2" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
+    <PackageReference Include="System.Diagnostics.Process" Version="4.3.0" />
+    <PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
